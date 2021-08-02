@@ -1,0 +1,17 @@
+{
+  "name": "teste-cy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --tag staging,login --record --headed --key 206f324a-d2d7-453c-b677-fc3e56d501c9 --spec cypress/integration/plenario.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.0.0"
+  }
+}
